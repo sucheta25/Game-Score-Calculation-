@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #4a3fcb; */
+    background-image: url("D:\pe2.jpg"); /* Replace 'path/to/your/image.jpg' with your image path */
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #dcd2fc;
+    padding: 40px 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.8em;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+    white-space: pre-wrap;
+}
+
+#result span {
+    font-weight: bold;
+}
+
+#history {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#history h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+#history ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#history li {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Average Gaming Score Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Average Gaming Score Calculator</h1>
+        <label for="username">Enter Your Name:</label>
+        <input type="text" id="username" placeholder="e.g. John Doe">
+        <label for="scores">Enter Scores</label>
+        <input type="text" id="scores" placeholder="e.g. 50, 80, 90, 100">
+        <button onclick="calculateAverage()">Calculate Average</button>
+        <div id="result"></div>
+        <div id="history">
+            <h2>Calculation History</h2>
+            <ul id="history-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
